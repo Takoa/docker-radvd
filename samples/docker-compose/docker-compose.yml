@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   radvd:
-    image: lotusrootjp/radvd:3
+    image: lotusrootjp/radvd:alpine
     network_mode: host
     volumes:
       - /root/radvd.conf:/etc/radvd.conf
