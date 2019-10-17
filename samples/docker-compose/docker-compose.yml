@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   radvd:
-    image: radvd:latest
+    image: lotusrootjp/radvd:3
     network_mode: host
     volumes:
-      - /home/takoa/radvd.conf:/etc/radvd.conf
+      - /root/radvd.conf:/etc/radvd.conf
